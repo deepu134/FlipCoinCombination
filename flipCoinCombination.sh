@@ -38,8 +38,8 @@ Tper=`echo  $countT |awk '{print (100*$1)/10}'`
 echo "$(($i-1)) Flips"
 echo ${!dict[@]}:${dict[@]}
 echo "HH %:$Hper% TT %:$Tper%"
-countH=0
 countT=0
+countH=0
 for ((i=1;i<=10;i++))
 do
         rand=$((RANDOM%4))
