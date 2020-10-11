@@ -10,4 +10,4 @@ do
 		*);; 
 	esac
 done
-echo ${dict[@]} ${dict[@]}
+echo ${dict[@]} 
